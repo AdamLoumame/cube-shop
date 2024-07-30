@@ -245,6 +245,11 @@ section{
     padding: 1rem 0;
     line-height: 1.8;
 }
+@media (max-width:767px){
+    .about .row{
+        margin: 0px;
+    }
+}
 .menu .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
